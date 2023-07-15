@@ -25,6 +25,6 @@ Create Professional Reports Using Pandoc and Latex from Markdown. Mainly started
 
 `./Generate_Report.sh Markdown/School_Lab_Template.md school_lab.pdf`
 
-#### NOtE
+#### NOTE
 - The picture will not populate in the example school_lab.md template, it will be replaced with the description
 - This was tested on the latest release of Kali Linux date 07/15/2023
