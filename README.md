@@ -28,3 +28,19 @@ Create Professional Reports Using Pandoc and Latex from Markdown. Mainly started
 #### NOTE
 - The picture will not populate in the example school_lab.md template, it will be replaced with the description
 - This was tested on the latest release of Kali Linux date 07/15/2023
+
+## Colors
+
+| titlepage-color | titlepage-text-color | titlepage-rule-color |
+|-----------------|----------------------|----------------------|
+| DC143C (Crimson) | FFFFFF (White)       | FFFFFF (White)       |
+| 00FF7F (SpringGreen) | 006400 (DarkGreen) | 000000 (Black)       |
+| 1E90FF (DodgerBlue) | FFFAFA (Snow)       | FFFAFA (Snow)       |
+| 483D8B (DarkSlateBlue) | FFFAFA (Snow)     | FFFAFA (Snow)        |
+| FFD700 (Gold) | 000000 (Black)           | 000000 (Black)       |
+| FFEFD5 (PapayaWhip) | 000000 (Black)      | 000000 (Black)       |
+| FF8C00 (DarkOrange) | 000000 (Black)      | 000000 (Black)       |
+| FFEF96 (no name) | 50394C (no name)      | 50394C (no name)     |
+
+- Syntax highlight themes can be listed with pandoc --list-highlight-styles.
+
