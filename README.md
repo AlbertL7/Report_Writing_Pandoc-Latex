@@ -16,7 +16,7 @@ Create Professional Reports Using Pandoc and Latex from Markdown. Mainly started
 `sudo apt install latex*`
 `sudo apt-get install texlive-full`
 
-### Make Generat_Report.sh Executable
+### Make Generate_Report.sh Executable
 `chmod +x Generate_Report.sh`
 
 ## How to Use
