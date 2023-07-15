@@ -29,7 +29,7 @@ Create Professional Reports Using Pandoc and Latex from Markdown. Mainly started
 - The picture will not populate in the example school_lab.md template, it will be replaced with the description
 - This was tested on the latest release of Kali Linux date 07/15/2023
 
-## Colors
+## Colors (https://github.com/noraj/OSCP-Exam-Report-Template-Markdown)
 
 | titlepage-color | titlepage-text-color | titlepage-rule-color |
 |-----------------|----------------------|----------------------|
