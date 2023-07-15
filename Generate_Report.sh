@@ -15,7 +15,7 @@ fi
 
 # If this machine does not have the template, put it there.
 if [ ! -e /usr/share/pandoc/data/templates/eisvogel.latex ]; then
-    sudo cp /home/bluesynack/Eisvogal_Template/eisvogel.latex /usr/share/pandoc/data/templates/
+    sudo cp ~/Report_Writing_Pandoc-Latex/Eisvogal_Template/eisvogel.latex /usr/share/pandoc/data/templates/
 fi
 
 # Convert the input Markdown file ($1) to PDF format using Pandoc. Apply the eisvogel template for styling.
