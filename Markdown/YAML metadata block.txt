@@ -1,0 +1,53 @@
+---
+# Metadata section for the document
+# Each field provides information about the document
+
+# Title of the document
+title: "Assignment"
+
+# Author(s) of the document
+author: ["Name"]
+
+# Date of the document
+date: "2023-07-14"
+
+# Subject of the document
+subject: "Markdown"
+
+# Keywords associated with the document
+keywords: [Abstract, Introduction, Objectives, Procedure, Results, Conclusion, Appendix, References]
+
+# Subtitle or additional information about the document
+subtitle: "Class Name and Teacher"
+
+# Language of the document
+lang: "en"
+
+# Specifies whether to include a title page
+titlepage: true
+
+# Color of the title page
+titlepage-color: "1E90FF"
+
+# Color of the text on the title page
+titlepage-text-color: "FFFAFA"
+
+# Color of the rule on the title page
+titlepage-rule-color: "FFFAFA"
+
+# Height of the rule on the title page
+titlepage-rule-height: 2
+
+# Specifies whether the document is a book
+book: false
+
+# Class options for the document
+classoption: oneside
+
+# Font size for code blocks
+code-block-font-size: \scriptsize
+
+# Additional header includes or LaTeX packages
+header-includes:
+  - \usepackage{hanging}
+---
