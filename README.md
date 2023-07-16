@@ -14,6 +14,7 @@ Create Professional Reports Using Pandoc and Latex from Markdown. Mainly started
 
 ### Install Latex
 `sudo apt install latex*`
+
 `sudo apt-get install texlive-full`
 
 ### Install Evince
