@@ -1,3 +1,4 @@
+```
 ---
 title: "Offensive Security Certified Professional Exam Report"
 author: ["student@youremailaddress.com", "OSID: XXXX"]
@@ -320,4 +321,5 @@ For the exam, I used my Metasploit/Meterpreter allowance on the following machin
 
 ```
 code here
+```
 ```
