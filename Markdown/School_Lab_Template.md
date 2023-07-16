@@ -1,3 +1,4 @@
+```
 ---
 title: "Assignment"
 author: ["Name"]
@@ -126,3 +127,4 @@ Microsoft. (2023b). Secure your application by using OpenID Connect and Azure AD
 \begin{hangparas}{.25in}{1}
 Microsoft. (2023c). Allow users to reset their password with Azure Active Directory self-service password reset: Introduction. Microsoft Learn. https://learn.microsoft.com/en-us/training/modules/allow-users-reset-their-password/
 \end{hangparas}
+```
