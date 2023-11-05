@@ -30,6 +30,9 @@ Create Professional Reports Using Pandoc and Latex from Markdown. Mainly started
 
 ## How to Use
 
+- If the eisvogel template is not successfully copying run without "sudo". IF it is still not working you can use the following command
+`cp ~/Report_Writing_Pandoc-Latex/Eisvogal_Template/eisvogel.latex /usr/share/pandoc/data/templates/eisvogel.latex`
+
 ### Example Usage
 
 `./Generate_Report.sh Markdown/School_Lab_Template.md school_lab.pdf`
