@@ -9,6 +9,11 @@ Create Professional Reports Using Pandoc and Latex from Markdown. Mainly started
 
 `git clone https://github.com/AlbertL7/Report_Writing_Pandoc-Latex.git`
 
+### Update / Upgrade  
+`sudo apt-get update`
+
+`sudo apt-get upgrade`
+
 ### Install Pandoc
 `sudo apt install pandoc`
 
