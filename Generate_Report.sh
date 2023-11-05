@@ -13,9 +13,16 @@ if [ "$#" -ne 2 ]; then
     exit
 fi
 
+template_path="$HOME/Report_Writing_Pandoc-Latex/Eisvogal_Template/eisvogel.latex"
+destination_path="/usr/share/pandoc/data/templates/eisvogel.latex"
+
 # If this machine does not have the template, put it there.
-if [ ! -e /usr/share/pandoc/data/templates/eisvogel.latex ]; then
-    sudo cp ~/Report_Writing_Pandoc-Latex/Eisvogal_Template/eisvogel.latex /usr/share/pandoc/data/templates/
+if [ ! -e "$destination_path" ]; then
+    sudo cp "$template_path" "$destination_path"
+    if [ ! -e "$destination_path" ]; then
+        echo "Failed to copy the Eisvogel template to $destination_path"
+        exit 1
+    fi
 fi
 
 # Convert the input Markdown file ($1) to PDF format using Pandoc. Apply the eisvogel template for styling.
